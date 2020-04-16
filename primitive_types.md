@@ -1,4 +1,4 @@
-# Python Practice
+# Primitive Types
 
 ## Variables
 
