@@ -111,7 +111,9 @@ print("Python \"training")
 print("Python \'training")
 print("Python \\training")
 print("Python \ntraining")
+```
 
+```console
 Terminal:
 Python "training
 Python "training
@@ -129,16 +131,22 @@ last = "Doe"
 full = f"{first} {last}"
 
 print(full)
+```
 
+```console
 Terminal:
 John Doe
+```
 
+```python
 first = "John"
 last = "Doe"
 full = f"{len(first)} {last} {2 + 6}"
 
 print(full)
+```
 
+```console
 Terminal:
 4 Doe 8
 ```
@@ -150,7 +158,9 @@ Something that you need to take away is that in Python everything is an object a
 ```python
 course = "python training"
 print(course.upper)
+```
 
+```console
 Terminal:
 PYTHON TRAINING
 ```
@@ -161,7 +171,9 @@ PYTHON TRAINING
 course = "python training"
 print(course.upper())
 print(course)
+```
 
+```console
 Terminal:
 PYTHON TRAINING
 python training
